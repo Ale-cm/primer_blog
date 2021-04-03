@@ -1,7 +1,7 @@
 {% load static %}
 <html>
     <head>
-        <title>Django ale blog</title>
+        <title>Alejandro: blog personal</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
@@ -12,12 +12,14 @@
     <body>
 <body>
     <div class="page-header">
-        <h1><a href="/">Django Girls Blog</a></h1>
+        <h1><a href="/">Alejandro: Blog django</a></h1>
+  	 <input class="timepage" size="5" id="timespent" name="timespent"><br>
     </div>
     <div class="content container">
         <div class="row">
             <div class="col-md-8">
             {% block content %}
+            
             {% endblock %}
             </div>
   
@@ -33,10 +35,11 @@
   <div class="card-body">
     <h5 class="card-title">Todo termino señores</h5>
     <p class="card-text">Lo unico que necesitan es seguir adelante sin bajar la marcha.</p>
-    <a href="#" class="btn btn-primary">Arriba</a>
+    <a href="http://127.0.0.1:8000" class="btn btn-primary">Inicio</a>
   </div>
   <div class="card-footer text-muted">
-    <input class="timepage" size="5" id="timespent" name="timespent"><br>
+    
+   
 
   </div>
 </div>
